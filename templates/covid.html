@@ -54,7 +54,7 @@
   <h1>
     <center>
     <img src="{{ url_for('static', filename='images/icon-infected.png') }}">
-    COVID-19 Tracker <b> {{country_name}} </b>
+    COVID-19 Tracker <b>{{country_name}} </b>
   </center>
   </h1>
 
@@ -478,7 +478,7 @@ window.onload = function () {
 <script>
 var ctx = "myChart";
 var myChart = new Chart(ctx, {
-  type: 'area',
+  type: 'line',
   options: {
     title: {
       display: true,
